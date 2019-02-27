@@ -1,0 +1,11 @@
+{
+	"name": "ReprocessingTech",
+	"version": "0.1.0",
+	"title": "Reprocessing Tech",
+	"author": "cicatrix",
+	"contact": "rammara@gmail.com",
+	"homepage": "",
+	"factorio_version": "0.17",
+	"dependencies": [ "base >= 0.17" ],
+	"description": "Adds reprocessing technologies for some end-products."
+}

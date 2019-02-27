@@ -1,0 +1,2 @@
+external resources
+https://www.reddit.com/r/factorio/comments/9xjfvx/modding_where_can_i_find_documentation/
