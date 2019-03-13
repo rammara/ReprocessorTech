@@ -3,7 +3,7 @@ data:extend({
 	{
 	type = "assembling-machine",
 	name = "reprocessingtechprocessor1",
-	icon = "__reprocessingtech__/graphics/item/processormk1.png", icon_size = 32,
+	icon = "__ReprocessingTech__/graphics/entity/reprocessor-icon.png", icon_size = 32,
 	flags = { "placeable-neutral", "placeable-player", "player-creation"},
 	minable = 
 	{
@@ -62,5 +62,30 @@ data:extend({
             volume = 0.7
         },
         apparent_volume = 1.5
+    },
+	animation =
+    {
+      filename = "__ReprocessingTech__/graphics/entity/reprocessor-base.png",
+      priority="high",
+      width = 260,
+      height = 182,
+      frame_count = 1,
+      shift = {0, 0}
+    },
+    working_visualisations =
+    {
+      {
+        animation =
+        {
+          filename = "__ReprocessorTech__/graphics/entity/reprocessor-anim-sheet.png",
+          priority = "extra-high",
+          frame_count = 17,
+          width = 260,
+          height = 182,
+          shift = {0, 0},
+          run_mode="backward"
+        },
+        light = {intensity = 1, size = 32}
+      }
     }
 })
