@@ -42,12 +42,13 @@ data:extend({
 		},
 	},
 	allowed_effects = { "consumption", "speed", "pollution", "consumption" },
-	crafting_categories = { "reprocessing" },
-	result_inventory_size = 5,
+	crafting_categories = { "reprocessing" },	
+	result_inventory_size = 4,
 	crafting_speed = 20,
 	energy_usage = "250kW",
 	source_inventory_size = 1,
 	fast_replaceable_group = "reprocessing",
+	ingredient_count = 1,
     energy_source =
     {
         type = "electric",
