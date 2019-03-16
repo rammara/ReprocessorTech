@@ -23,12 +23,13 @@ grinder.working_visualisations =
           frame_count = 17,
           width = 260,
           height = 182,
-          shift = {0, 0},
-          run_mode="backward"
+          shift = {0, 0}
         },
         light = {intensity = 1, size = 32}
       }
     }
+grinder.minable = {mining_time = 1, result = "ReprocessingGrinder"}
+--grinder.fast_replaceable_group = "item-incinerator"
 grinder.result_inventory_size = 4
 grinder.ingredient_count = 1
 grinder.order = "a"
